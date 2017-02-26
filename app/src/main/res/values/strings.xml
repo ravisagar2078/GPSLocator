@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPSPlotter</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin_">Map</string>
+    <string name="logo">TRAIN TRACK AGENT</string>
+    <string name="login_activity">Login Page</string>
+</resources>

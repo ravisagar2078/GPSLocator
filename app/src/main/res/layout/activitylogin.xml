@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5eff0"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:padding="3dp"
+        android:text="Login"
+        android:onClick="onlogin"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_selector"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/forgotpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:layout_below="@+id/btnlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:singleLine="true"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_selector"
+        android:drawableLeft="@drawable/email2"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/etPassword"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:singleLine="true"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_selector"
+        android:drawableLeft="@drawable/password1"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="@color/black"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/etUserName" />
+
+
+</RelativeLayout>
